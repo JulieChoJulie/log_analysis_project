@@ -1,5 +1,5 @@
 # Log Analysis Project
->The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in expected_outcome_in_web_browser.png. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
+>The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in expected_outcome_in_web_browser.png and expected_output_text.txt. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
 
 
 ## Purpose of this project
@@ -36,6 +36,7 @@
 8. Execute the command ```contorl + D```.
 9. Run the command ```python newsdata.py``` and it will listen on port 8000.
 10. Go to your web browser and access it at http://localhost:8000/
+11. AND your program will print out the analysis results. 
 
 
 ## Possible Errors
