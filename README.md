@@ -17,6 +17,12 @@ The log analysis project will show you the results of analysis on the database '
 7. Run the command python newsdata.py and it will listen on port 8000.
 8. Go to your web browser and access it at http://localhost:8000/
 
+# Possible Errors
+If this command gives an error message, such as —
+```psql: FATAL: database "news" does not exist```
+```psql: could not connect to server: Connection refused```
+— this means the database server is not running or is not set up correctly. This can happen if you have an older version of the VM configuration. To continue, download the virtual machine configuration into a fresh new directory and start it from there.
+
 
 
 
