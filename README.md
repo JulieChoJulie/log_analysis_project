@@ -1,5 +1,5 @@
 # log_analysis_project
-The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in 111111. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
+The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in '''expected_outcome_in_web_browser.png'''. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
 
 
 # Running the Program
