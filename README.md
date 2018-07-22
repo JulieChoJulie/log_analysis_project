@@ -45,5 +45,5 @@ If this command gives an error message, such as —
 — this means the database server is not running or is not set up correctly. This can happen if you have an older version of the VM configuration. To continue, download the virtual machine configuration into a fresh new directory and start it from there.
 
 
-# Acknowldgement
+## Acknowldgement
 Udacity - Full Stack Web Developer NanoDegree Program
