@@ -4,7 +4,7 @@
 # Purpose of this project
 >In this project, I stretched SQL database skills. I built and refined complex queries and use them to draw business conclusions from data.
 
-# You need to install the following below : 
+# You need to install : 
 - [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 - [the VM configuration](https://github.com/udacity/fullstack-nanodegree-vm)
