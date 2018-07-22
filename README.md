@@ -1,16 +1,19 @@
 # Log Analysis Project
 >The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in expected_outcome_in_web_browser.png. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
 
-# Purpose of this project
+
+## Purpose of this project
 >In this project, I stretched SQL database skills. I built and refined complex queries and use them to draw business conclusions from data.
 
-# You need to install : 
+
+## You need to install : 
 - [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 - [the VM configuration](https://github.com/udacity/fullstack-nanodegree-vm)
 - [Python3](https://www.python.org/getit/)
 
-# Running the Program
+
+## Running the Program
 1. Inside the vagrant subdirectory, run the command ```vagrant up```.
 2. When ```vagrant up``` is finished running, you will get your shell prompt back. At this point, you can run ```vagrant ssh``` to log in to your newly installed Linux VM.
 4. Download the files listed below and locate them in the vagrant directory, which is shared with your virtual machine(VM).
@@ -34,11 +37,13 @@
 9. Run the command ```python newsdata.py``` and it will listen on port 8000.
 10. Go to your web browser and access it at http://localhost:8000/
 
-# Possible Errors
+
+## Possible Errors
 If this command gives an error message, such as —
 ```psql: FATAL: database "news" does not exist```
 ```psql: could not connect to server: Connection refused```
 — this means the database server is not running or is not set up correctly. This can happen if you have an older version of the VM configuration. To continue, download the virtual machine configuration into a fresh new directory and start it from there.
+
 
 # Acknowldgement
 Udacity - Full Stack Web Developer NanoDegree Program
