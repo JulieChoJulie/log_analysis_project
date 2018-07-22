@@ -1,8 +1,8 @@
-# log_analysis_project
-The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in expected_outcome_in_web_browser.png. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
+# Log Analysis Project
+>The log analysis project will show you the results of analysis on the database 'news' in newsdata file. The expected output is displayed in expected_outcome_in_web_browser.png. This is the part of Udacity Full Stack Web Developer NanoDegree Program.
 
 # Purpose of this project
-In this project, I stretched SQL database skills. I built and refined complex queries and use them to draw business conclusions from data.
+>In this project, I stretched SQL database skills. I built and refined complex queries and use them to draw business conclusions from data.
 
 # You need to install the following below : 
 - [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
@@ -31,7 +31,7 @@ In this project, I stretched SQL database skills. I built and refined complex qu
     create view log_ok as select id, substring(path, 10) as path_sliced from log where method = 'GET' and status = '200 OK' and path != '/';
     ```
 8. Execute the command ```contorl + D```.
-9. Run the command python newsdata.py and it will listen on port 8000.
+9. Run the command ```python newsdata.py``` and it will listen on port 8000.
 10. Go to your web browser and access it at http://localhost:8000/
 
 # Possible Errors
